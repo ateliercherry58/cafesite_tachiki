@@ -58,7 +58,7 @@ body {
     position: relative;
 }
 
-.header-wrap{
+.header-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,7 +104,7 @@ body {
 .text2{
     margin-bottom: 40.05px;
     font-size: 82px;
-    text-align: center;   
+    text-align: center;  
 }
 
 .text3{
@@ -160,4 +160,58 @@ body {
 .about-desc {
     margin: 0;
     line-height: 1.9;
+}
+
+.wrap2{
+    max-width: 1100px;
+    margin: auto 0;
+    padding: 0 24px;
+}
+
+.menu{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-title {
+    display: block;
+    margin: 41px auto 44px;
+    height: 81px;
+}
+
+.menu2 {
+    width: 300px;
+    text-align: left;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thumnail {
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 0 50px 0 0;
+}
+
+.thumnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-head {
+    font-size: 38px;
+    color: #d30202;
+    margin-top: -20px;
+}
+
+.menu-desc {
+    font-size: 17px;
+    color: #4f260b;
+    margin-top: 24px;
+
 }
