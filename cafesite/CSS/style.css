@@ -108,7 +108,7 @@ body {
     text-align: center;  
     line-height: 1.17;
     letter-spacing: 0.1em;
-    font-feature-settings: "palt";
+    /* font-feature-settings: "palt"; */
     padding: 0 10px;
 }
 
@@ -118,11 +118,11 @@ body {
     margin-bottom: 107px;
     line-height: 1.65;
     letter-spacing: 0.1em;
-    font-feature-settings: "palt";
+    /* font-feature-settings: "palt"; */
     padding: 0 10px;
 }
 
-.wrap {
+.aboutus-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,15 +138,15 @@ body {
 }
 
 .about {
-    max-width: 100%
+    max-width: 43%
 }
 
 .about-title {
     display: block;
     margin-bottom: 24px;
-    width: auto;
+    /* width: auto; */
     height: 80px;
-    margin-top: 68px;
+    /* margin-top: 68px; */
 }
 
 .catch {
@@ -171,14 +171,14 @@ body {
     padding: 0 24px;
 }
 
-.menu{
-    text-align: center;
-}
 
-.menu-title {
+.menu-logo {
     display: block;
     margin: 41px auto 44px;
     height: 81px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 100px;
 }
 
 .menu2 {
@@ -214,21 +214,26 @@ body {
     line-height: 1.47;
 }
 
-.gallery {
+
+.gallery-logo {
     margin: 0 auto;
     display: block;
     height: 81px;
     margin-top: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .gallery2{
     display: flex;
     justify-content: space-between;
-    max-width: 1920px;
+    /* max-width: 1920px; */
 }
 
-.event {
+.gallery2 img {
+    width: 20%;
+}
+
+.event-logo{
     margin: 0 auto;
     display: block;
     height: 81px;
@@ -239,16 +244,25 @@ body {
 .event-wrap {
     outline-style: solid;
     outline-color: #4f260b;
+    outline-width: 3.68px;
     background-color: #fff;
-    width: 1000px;
-    height: 200px;
-    max-width: 80%;
+    max-width: 1000px;
+    /* height: 200px; */
+    /* max-width: 100%; */
     margin: 0 auto;
+    padding: 40px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
 }
 
 .news_pc {
     text-align: center;
-
+    text-decoration: underline;
+    margin-left: 40px;
+    line-height: 1.95;
 }
 
 .access {
@@ -266,31 +280,42 @@ body {
 
 .footer {
     background-color: #fff;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding-top: 64px;
 }
 
 .footer-logo {
     height: 52px;
-    margin-top: 64px;
+    /* margin-top: 64px; */
+    /* padding-left: 460px; */
+    margin-right: 56px;
+ 
 }
 
-.adress{
+.adress li {
     line-height: 1.95;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     font-size: 20px;
-    font-feature-settings: "palt";
+    /* font-feature-settings: "palt"; */
 }
 
-.totOP {
+.toTOP {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 125px;
 }
 
+.footer-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
 .last {
     font-size: 16px;
-    margin: 0 auto;
-    display: block;
+    text-align: center;
+    padding: 80px;
 }
